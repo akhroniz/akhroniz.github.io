@@ -1,174 +1,175 @@
-# The Site Configuration
+# Configuración del sitio
 
-# Import the theme
+# Importa el tema
 theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: en
+# Idioma de la página › http://www.lingoes.net/en/translator/langcode.htm
+# Si coincide con el nombre de uno de los archivos de la carpeta `_data/locales`, el idioma de la interfaz también cambiará;
+# de lo contrario, la interfaz usará el valor por defecto 'en'.
+lang: es-ES
 
-# Change to your timezone › https://zones.arilyn.cc
-timezone:
+# Cambia a tu zona horaria › https://zones.arilyn.cc
+timezone: America/Mexico_City
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# Configuración de jekyll-seo-tag › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: HTB Fenetik # el título principal
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Writeups de HTB hechos por la comunidad # se mostrará como subtítulo
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: >- # usado por las metaetiquetas SEO y el feed atom
+  Espacio donde publico los writeups de Hack The Box hechos por mi comunidad.
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+# Escribe el protocolo y el dominio de tu sitio.
+# Ej. 'https://usuario.github.io'; ten en cuenta que no termina con '/'.
+url: "https://akhroniz.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: akhroniz # tu usuario de GitHub
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # tu usuario de Twitter/X (déjalo vacío si no tienes)
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  # Cambia a tu nombre completo.
+  # Se mostrará como autor por defecto de los posts y como titular del copyright en el pie de página.
+  name: akhroniz
+  email: # tu correo electrónico (opcional)
+  fediverse_handle: # tu usuario de fediverso. Ej. "@usuario@dominio.com"
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    # El primer elemento funciona como el enlace del titular del copyright
+    - https://github.com/akhroniz # tu página de GitHub
+    # Descomenta las siguientes líneas para agregar más redes sociales
+    # - https://twitter.com/usuario
+    # - https://www.facebook.com/usuario
+    # - https://www.linkedin.com/in/usuario
 
-# Site Verification Settings
+# Configuración de verificación del sitio
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+  google: # código de verificación de Google
+  bing: # código de verificación de Bing
+  alexa: # código de verificación de Alexa
+  yandex: # código de verificación de Yandex
+  baidu: # código de verificación de Baidu
+  facebook: # código de verificación de Facebook
 
 # ↑ --------------------------
-# The end of `jekyll-seo-tag` settings
+# Fin de la configuración de `jekyll-seo-tag`
 
-# Web Analytics Settings
+# Configuración de analítica web
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: # ID de Google Analytics
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: # ID de GoatCounter
   umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
+    id: # ID de Umami
+    domain: # dominio de Umami
   matomo:
-    id: # fill in your Matomo ID
-    domain: # fill in your Matomo domain
+    id: # ID de Matomo
+    domain: # dominio de Matomo
   cloudflare:
-    id: # fill in your Cloudflare Web Analytics token
+    id: # token de Cloudflare Web Analytics
   fathom:
-    id: # fill in your Fathom Site ID
+    id: # ID de sitio de Fathom
 
-# Page views settings
+# Configuración de vistas de página
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: # por ahora solo admite 'goatcounter'
 
-# Prefer color scheme setting.
+# Esquema de color preferido.
 #
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
+# Nota: si lo dejas vacío, seguirá por defecto el esquema de color del sistema,
+# y aparecerá un botón para alternar entre tema claro y oscuro
+# en la parte inferior izquierda de la barra lateral.
 #
-# Available options:
+# Opciones disponibles:
 #
-#     light — Use the light color scheme
-#     dark — Use the dark color scheme
+#     light — Usa el esquema de color claro
+#     dark — Usa el esquema de color oscuro
 #
 theme_mode: # [light | dark]
 
-# The CDN endpoint for media resources.
-# Notice that once it is assigned, the CDN url
-# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
+# El endpoint de CDN para los recursos multimedia.
+# Ten en cuenta que, una vez asignado, la URL del CDN
+# se agregará a las rutas de todos los recursos multimedia (avatar del sitio, imágenes de los posts, audio y video) que empiecen con '/'
 #
-# e.g. 'https://cdn.com'
+# ej. 'https://cdn.com'
 cdn:
 
-# the avatar on sidebar, support local or CORS resources
+# El avatar de la barra lateral; admite recursos locales o CORS
+# Ej. /assets/img/avatar.png (sube la imagen a assets/img/)
 avatar:
 
-# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
-# It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+# La URL de la imagen de vista previa social de todo el sitio, usada en la metaetiqueta SEO `og:image`.
+# Se puede sobrescribir con un `image` personalizado en el front matter de cada post.
+social_preview_image: # texto, recursos locales o CORS
 
-# boolean type, the global switch for TOC in posts.
+# booleano, interruptor global de la tabla de contenidos (TOC) en los posts.
 toc: true
 
 actions:
-  # Display "Edit this post" action on each post page to encourage contributions.
+  # Muestra la acción "Editar este post" en cada página de post para fomentar contribuciones.
   edit_post:
-    enabled: false # set to true to display the "Edit this post" action.
-    url: "" # repository base URL, e.g. https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
-    # Use dynamic or static URL for the edit link.
-    # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.
-    # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
+    enabled: false # ponlo en true para mostrar la acción "Editar este post".
+    url: "" # URL base del repositorio, ej. https://github.com/akhroniz/akhroniz.github.io/edit/main
+    # Usa una URL dinámica o estática para el enlace de edición.
+    # Si `static_url` es false, la ruta del post se agregará a la `url` anterior como enlace final de edición.
+    # Ponlo en true si la URL debe permanecer sin cambios, es decir, todos los posts compartirán el mismo enlace de edición.
     static_url: false # [ true | false ]
 
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
+  # Interruptor global del sistema de comentarios en los posts. Si lo dejas vacío, está desactivado.
   provider: # [disqus | utterances | giscus]
-  # The provider options are as follows:
+  # Las opciones de proveedor son las siguientes:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
+    shortname: # escribe el shortname de Disqus. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # configuración de utterances › https://utteranc.es/
   utterances:
-    repo: # <gh-username>/<repo>
+    repo: # <usuario-gh>/<repo>
     issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
+  # Opciones de Giscus › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
+    repo: # <usuario-gh>/<repo>
     repo_id:
     category:
     category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    mapping: # opcional, por defecto 'pathname'
+    strict: # opcional, por defecto '0'
+    input_position: # opcional, por defecto 'bottom'
+    lang: # opcional, por defecto el valor de `site.lang`
+    reactions_enabled: # opcional, por defecto el valor de `1`
 
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+# Recursos estáticos alojados por ti mismo, opcional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
-    # only works if `assets.self_host.enabled` is 'true'
+    enabled: # booleano, vacío significa false
+    # especifica el entorno de Jekyll, vacío significa ambos
+    # solo funciona si `assets.self_host.enabled` es 'true'
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: true # Opción de la función PWA (instalable)
   cache:
-    enabled: true # The option for PWA offline cache
-    # Paths defined here will be excluded from the PWA cache.
-    # Usually its value is the `baseurl` of another website that
-    # shares the same domain name as the current website.
+    enabled: true # Opción de caché sin conexión de la PWA
+    # Las rutas definidas aquí se excluirán de la caché de la PWA.
+    # Normalmente su valor es el `baseurl` de otro sitio web que
+    # comparte el mismo dominio que el sitio actual.
     deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
+      # - "/example"  # las URLs que coincidan con `<URL_DEL_SITIO>/example/*` no se guardarán en la caché de la PWA
 
 paginate: 10
 
-# The base URL of your site
+# La URL base de tu sitio
 baseurl: ""
 
-# ------------ The following options are not recommended to be modified ------------------
+# ------------ No se recomienda modificar las siguientes opciones ------------------
 
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts: # Opciones de Rouge › https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
@@ -184,14 +185,14 @@ collections:
 
 defaults:
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: "" # Una cadena vacía aquí significa todos los archivos del proyecto
       type: posts
     values:
       layout: post
-      comments: true # Enable comments in posts.
-      toc: true # Display TOC column in posts.
-      # DO NOT modify the following parameter unless you are confident enough
-      # to update the code of all other post links in this project.
+      comments: true # Activa los comentarios en los posts.
+      toc: true # Muestra la columna de tabla de contenidos en los posts.
+      # NO modifiques el siguiente parámetro a menos que estés seguro de poder
+      # actualizar el código de todos los demás enlaces de posts de este proyecto.
       permalink: /posts/:title/
   - scope:
       path: _drafts
@@ -199,7 +200,7 @@ defaults:
       comments: false
   - scope:
       path: ""
-      type: tabs # see `site.collections`
+      type: tabs # ver `site.collections`
     values:
       layout: page
       permalink: /:title/
