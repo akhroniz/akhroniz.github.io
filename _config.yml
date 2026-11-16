@@ -29,21 +29,23 @@ github:
   username: akhroniz # tu usuario de GitHub
 
 twitter:
-  username: # tu usuario de Twitter/X (déjalo vacío si no tienes)
+  username: IsraelRogelioG # tu usuario de X
 
 social:
   # Cambia a tu nombre completo.
   # Se mostrará como autor por defecto de los posts y como titular del copyright en el pie de página.
-  name: akhroniz
+  name: Israel Rogelio Gómez Juárez
   email: # tu correo electrónico (opcional)
   fediverse_handle: # tu usuario de fediverso. Ej. "@usuario@dominio.com"
   links:
     # El primer elemento funciona como el enlace del titular del copyright
     - https://github.com/akhroniz # tu página de GitHub
-    # Descomenta las siguientes líneas para agregar más redes sociales
-    # - https://twitter.com/usuario
+    - https://x.com/IsraelRogelioG
+    - https://www.linkedin.com/in/israel-gj-ciberseguridad/
+    - https://www.youtube.com/@Akhroniz
+    - https://www.instagram.com/israelrogeliogomez
+    - https://www.tiktok.com/@akhroniz
     # - https://www.facebook.com/usuario
-    # - https://www.linkedin.com/in/usuario
 
 # Configuración de verificación del sitio
 webmaster_verifications:
@@ -100,11 +102,11 @@ cdn:
 
 # El avatar de la barra lateral; admite recursos locales o CORS
 # Ej. /assets/img/avatar.png (sube la imagen a assets/img/)
-avatar:
+avatar: /assets/img/avatar.png
 
 # La URL de la imagen de vista previa social de todo el sitio, usada en la metaetiqueta SEO `og:image`.
 # Se puede sobrescribir con un `image` personalizado en el front matter de cada post.
-social_preview_image: # texto, recursos locales o CORS
+social_preview_image: /assets/img/social-preview.png
 
 # booleano, interruptor global de la tabla de contenidos (TOC) en los posts.
 toc: true
