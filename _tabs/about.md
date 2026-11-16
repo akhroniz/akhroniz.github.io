@@ -5,7 +5,7 @@ order: 4
 
 ## ¡Hola! Soy Akhroniz 👋
 
-Soy **Israel Gómez Juárez**, conocido por aquí como **akhroniz**, y este es mi rincón personal de **Hack The Box**.
+Soy **Israel**, conocido por aquí como **akhroniz**, y este es mi rincón personal de **Hack The Box**.
 
 🦊 **¿Qué es HTB Fenetik?**
 
